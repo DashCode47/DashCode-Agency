@@ -1,0 +1,48 @@
+.container-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+    font-size: 90px;
+    font-weight: bold;
+}
+.btn-start{
+    font-size: 30px;
+    background-color: #0a5551;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+.rocket{
+    height: 60px;
+    margin-top: 15px;
+}
+
+.fade-in{
+  transition: opacity 2.5s ease;
+}
+.fade-out{
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .rocket {
+      animation: Rocket-logo-spin infinite 1.3s alternate-reverse;
+    }
+  }
+
+  @keyframes Rocket-logo-spin {
+    from {
+      transform:translate(0,0);
+    }
+    to {
+      transform: translate(-10px,10px);
+    }
+  }
+  

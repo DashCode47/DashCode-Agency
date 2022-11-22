@@ -1,0 +1,72 @@
+.container-header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.header-title{
+    font-size: 52px;
+    font-weight: bold;
+}
+.header-btn{
+    padding:8px 10px;
+    background-color:#5134ff;
+    border-radius: 12px;
+    margin-top: 10px;
+    width: 150px;
+    font-weight: bold;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.header-btn:hover{
+    cursor: pointer;
+}
+.container-images{
+    margin-top: 50px;
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-images{
+    height: 280px;
+    width: 240px;
+    border-radius: 25px;
+    transition: all 1s ease;
+}
+.header-images:hover{
+  transform: translateY(8px);
+}
+
+.header-images:nth-child(2){
+    margin-top: 60px;
+}
+.header-images:nth-child(4){
+    margin-top: 60px;
+}
+
+  @media (prefers-reduced-motion: no-preference) {
+    .Arrow-logo {
+      animation: Arrow-logo-spin infinite 1s alternate-reverse;
+    }
+  }
+  
+
+
+  @keyframes Arrow-logo-spin {
+    from {
+      transform:translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  
+  .fade-in{
+    transition: opacity 2.5s ease;
+  }

@@ -1,0 +1,36 @@
+.footer-container{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.footer-bg{
+    width: 100vw;
+    height: 60vh;
+    align-self: flex-end;
+    padding-left: 80px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.footer-mail{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.footer-copy{
+    color: aliceblue;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+    
+}
