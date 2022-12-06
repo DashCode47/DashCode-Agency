@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { slide as Menu } from "react-burger-menu";
 
 const NavBar = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const handleShow = () => {
     setShow(!show);
   };
