@@ -11,10 +11,7 @@ const Contact = () => {
         ¡Encantados de ayudarte! Déjanos tus datos y te llamamos en 24/48H.
       </div>
       <div className="form-right">
-        <img
-          src={img1}
-          style={{ height: 100, marginRight: 100, marginTop: 50 }}
-        />
+        <img src={img1} className="imgMail" />
         <form>
           <input
             type="text"

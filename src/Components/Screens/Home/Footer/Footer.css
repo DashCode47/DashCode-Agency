@@ -34,3 +34,11 @@
     left: 40%;
     
 }
+@media only screen and (max-width:600px) {
+    .footer-copy{
+        left: 15%;
+    }
+    .footer-bg{
+        padding-left: 20px;
+    }
+}

@@ -36,3 +36,16 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .services-container{
+        height: 270vh;
+    }
+    .type-services-container{
+        flex-direction: column;
+    }
+    .services{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}

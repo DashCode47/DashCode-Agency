@@ -19,3 +19,12 @@
     font-weight: bold;
     padding-top: 30px;
 }
+@media only screen and (max-width:600px){
+    .products-container{
+        flex-direction: column;
+    }
+    .card-container{
+        width: 85%;
+        margin-bottom: 40px;
+    }
+}

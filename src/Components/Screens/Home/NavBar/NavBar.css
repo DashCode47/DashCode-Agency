@@ -61,3 +61,36 @@
     -.5rem -.5rem 1rem rgb(224, 103, 47);
     border-radius: 25px;
 }
+.burger{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .burger{
+        display: flex;
+        background-color: #fff;
+        
+    }
+    .navbar-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.95;
+        position: initial;
+        height: 100vh;
+        width: 300px;
+    }
+    .tags-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger-container{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 2;
+        
+        
+    }
+  }

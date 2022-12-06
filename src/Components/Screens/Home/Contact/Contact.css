@@ -58,3 +58,23 @@
     box-shadow: .5rem .5rem 1rem #fff,
     -.5rem -.5rem 1rem #ccc;
 }
+.imgMail{
+    height: 100px;
+    margin-top: 50;
+    margin-right: 100px;
+}
+@media only screen and (max-width:600px) {
+    .form-right{
+        width: 100px;
+        flex-direction: column;
+    }
+    .imgMail{
+        margin-right: 1px;
+        margin-top: 0px;
+        height: 90px;
+    }
+    .contact-container{
+        height: 600px;
+        padding-bottom: 210px;
+    }
+}
